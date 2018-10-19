@@ -63,6 +63,24 @@ li a:active {
   font-weight: bold;
 }
 
+.mobile-menu {
+  display: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 560px) {
+  .logo img,
+  .logo span,
+  .menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+}
+
 /* Main banner */
 .main-banner {
   background-color: rgb(216, 216, 216);
@@ -94,7 +112,7 @@ h4 {
 }
 
 .call h4 {
-  padding: 1.5rem 0 2rem 0; 
+  padding: 1.5rem 0 2rem 0;
 }
 
 .btn {
