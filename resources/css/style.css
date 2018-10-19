@@ -75,6 +75,10 @@ li a:active {
   padding: 2rem 1.5rem;
 }
 
+.call {
+  width: 30%;
+}
+
 h1, h2, h3, h4 {
   font-weight: bold;
   color: rgb(74, 74, 74);
@@ -87,6 +91,10 @@ h1 {
 
 h4 {
   font-size: 1.9rem;
+}
+
+.call h4 {
+  padding: 1.5rem 0 2rem 0; 
 }
 
 .btn {
