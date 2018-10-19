@@ -1,0 +1,272 @@
+html {
+  font-size: 16px;
+
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/* Header */
+header .container {
+  position: fixed;
+  z-index: 1;
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.logo img {
+  height: 2rem;
+  width: auto;
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(74,74,74);
+  align-items: center;
+}
+header .menu {
+  margin-right: 1.5rem;
+}
+
+li {
+  display: inline;
+  padding-left: 1rem;
+}
+
+li a {
+  font-size: 1.2rem;
+  color: rgb(74, 74, 74);
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(74, 144, 226);
+}
+
+li a:active {
+  font-weight: bold;
+}
+
+/* Main banner */
+.main-banner {
+  background-color: rgb(216, 216, 216);
+  top: 4rem;
+}
+
+.main-banner img {
+  width: 57%;
+  /* Incorrect requirements specifications: image's width cannot be 60% */
+  padding: 2rem 1.5rem;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.9rem;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(74, 74, 74);
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem 10.8rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(74, 144, 226);
+}
+
+/* Info block */
+
+.content {
+    display: flex;
+  }
+
+  /* Main info block */
+
+  .main-block {
+  background-color: white;
+  width: 60%;
+  border-right: 1.5px solid rgb(224, 226, 226);
+  }
+
+  .main-block img {
+  width: 95%;
+  /* Incorrect requirements specifications: image's width cannot be 60% */
+  padding: 2rem 1.5rem;
+  }
+
+  .description {
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  width: 90%;
+  }
+
+  h2 {
+  font-size: 3rem;
+  }
+
+  p {
+  font-size: 1.2rem;
+  color: rgb(118, 118, 118);
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  }
+
+  .description span {
+  font-size: 1rem;
+  color: rgb(74, 74,74);
+  margin: 2rem 0;
+  }
+
+  /* News side block */
+
+  .news-block {
+    width: 40%;
+  }
+
+  .news {
+    display: flex;
+    align-items: center;
+  }
+
+  .news img {
+    width: 35%;
+    height: auto;
+    margin: 1rem;
+  }
+
+  #orientation {
+    margin-top: 2rem;
+  }
+
+  .news p {
+    padding: 0.5rem 0;
+  }
+
+  .news a {
+    text-decoration: none;
+    color: rgb(74, 144, 226);
+  }
+
+  .news a:hover {
+    font-weight: bold;
+  }
+
+  #campus {
+    border-top: 3px double rgb(224, 226, 226);
+  }
+
+  #background {
+    background-color: rgb(216, 216, 216);
+  }
+
+/* Courses */
+
+.learning {
+  background-color: rgb(234, 235, 236);
+  padding: 2rem 3.5rem 2rem 3.5rem;
+  text-align: center;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  flex-direction: column;
+  margin: 2rem 1rem 0 1rem;
+  width: 30%;
+  height: auto;
+  background-color: white;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.names {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.names p {
+  padding: 0.5rem 0;
+}
+
+/* Thesis block */
+
+.thesis {
+  background-color: white;
+  padding-top: 2rem;
+}
+
+.thesis h2 {
+  text-align: center;
+}
+
+.thesis .content {
+  padding-top: 2rem;
+}
+
+.video {
+  width: 60%;
+}
+
+video {
+  width: 95%;
+  /* Incorrect requirements specifications: video's width cannot be 60% */
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.video p {
+  padding-top: 0.5rem;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-top: 1.5px solid rgb(224, 226, 226);
+  height: 4rem;
+}
+
+footer p {
+  font-size: 1rem;
+  padding: 0;
+}
+
+footer li a {
+  font-size: 1rem;
+}
