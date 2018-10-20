@@ -198,6 +198,12 @@ h4 {
   margin: 2rem 0;
   }
 
+  @media only screen and (max-width: 560px) {
+    .main-block {
+      display: none;
+    }
+  }
+
   /* News side block */
 
   .news-block {
@@ -217,6 +223,26 @@ h4 {
 
   #orientation {
     margin-top: 2rem;
+  }
+
+  #o-mobile {
+  display: none;
+  }
+
+  #camp {
+  display: flex;
+  }
+
+  #camp-mobile {
+    display: none;
+  }
+
+  #guest {
+    display: flex;
+  }
+
+  #guest-mobile {
+    display: none;
   }
 
   .news p {
@@ -239,6 +265,60 @@ h4 {
   #background {
     background-color: rgb(216, 216, 216);
   }
+
+@media only screen and (max-width: 560px) {
+  .news-block {
+    width: 100%;
+    height: auto;
+  }
+
+  .news {
+    display: block;
+  }
+
+  .news img {
+    width: 90%;
+  }
+
+  #orientation {
+    display: none;
+  }
+
+  #o-mobile {
+  display: block;
+  margin-top: 1rem;
+  }
+
+  #camp {
+  display: none;
+  }
+
+  #camp-mobile {
+  display: block;
+  }
+
+  #campus {
+    border-top: none;
+    margin: 4rem 0;
+  }
+
+  #guest {
+    display: none;
+  }
+
+  #guest-mobile {
+    display: block;
+  }
+
+  #background {
+    background-color: white;
+    margin-bottom: 2rem;
+  }
+
+  .text {
+    padding-left: 1rem;
+  }
+}
 
 /* Courses */
 
