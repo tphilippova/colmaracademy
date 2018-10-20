@@ -270,6 +270,7 @@ h4 {
   .news-block {
     width: 100%;
     height: auto;
+    justify-content: center;
   }
 
   .news {
@@ -348,12 +349,46 @@ h4 {
   display: block;
 }
 
-.names {
+.name {
   padding: 1rem 1rem 1.5rem 1rem;
 }
 
-.names p {
+.name p {
   padding: 0.5rem 0;
+}
+
+@media only screen and (max-width: 560px) {
+  .learning {
+    background-color: white;
+    border-top: 1.5px solid rgb(224, 226, 226);
+    border-bottom: 1.5px solid rgb(224, 226, 226);
+    padding: 2rem 1rem;
+  }
+
+  .courses {
+    display: block;
+
+  }
+
+  .course {
+    width: 100%;
+    background-color: rgba(234, 235, 236);
+    margin: 0 0 0.5rem 0;
+  }
+
+  .course img {
+    display: none;
+  }
+
+  .name {
+    padding: 1rem 0 1.5rem 1rem;
+    text-align: left;
+    }
+  }
+
+  .name p {
+    display: none;
+  }
 }
 
 /* Thesis block */
