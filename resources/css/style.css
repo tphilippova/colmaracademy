@@ -6,6 +6,7 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   line-height: 1.4;
+  width: 100%;
 }
 
 .container {
@@ -66,7 +67,6 @@ li a:active {
 
 .mobile-menu {
   display: none;
-  width: 100%;
 }
 
 @media only screen and (max-width: 560px) {
@@ -76,7 +76,16 @@ li a:active {
     display: none;
   }
 
+  header .logo {
+    margin-left: 0;
+  }
+
+  header .menu {
+    margin-right: 0l
+  }
+
   .mobile-menu {
+    width: 100%;
     display: inline-flex;
     justify-content: space-around;
   }
@@ -98,7 +107,7 @@ li a:active {
 }
 
 .call {
-  width: 30%;
+  width: 35%;
 }
 
 h1, h2, h3, h4 {
@@ -138,27 +147,25 @@ h4 {
     width: 100%;
     padding: 0;
   }
-.main-banner .container {
+  .main-banner .container {
   display: block;
-}
-.call {
+  }
+  .call {
   width: 100%;
-  padding: 2rem 1rem;
-}
+  padding: 2rem 0 2rem 1rem;
+  }
 
-.call h4 {
-  padding: 2rem 0 1.5rem 0;
-}
-
-.btn {
-  background-color: rgb(155, 155, 155)
-}
+  .btn {
+  background-color: rgb(155, 155, 155);
+  width: 93%;
+  }
 }
 
 /* Info block */
 
 .content {
     display: flex;
+    justify-content: center;
   }
 
   /* Main info block */
@@ -218,11 +225,11 @@ h4 {
   .news img {
     width: 35%;
     height: auto;
-    margin: 1rem;
+    padding: 1rem;
   }
 
   #orientation {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   #o-mobile {
@@ -278,7 +285,8 @@ h4 {
   }
 
   .news img {
-    width: 90%;
+    width: 93%;
+    margin: 0;
   }
 
   #orientation {
@@ -418,6 +426,30 @@ video {
 
 .video p {
   padding-top: 0.5rem;
+}
+
+@media only screen and (max-width: 560px) {
+  .description {
+    display: none;
+  }
+
+  .thesis .news-block {
+    display: none;
+  }
+
+  .thesis h2 {
+    padding-top: 2rem;
+  }
+
+  .content .video {
+    width: 100%;
+    padding-bottom: 1.5rem;
+  }
+
+  video {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 /* Footer */
