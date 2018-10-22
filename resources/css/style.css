@@ -81,7 +81,7 @@ li a:active {
   }
 
   header .menu {
-    margin-right: 0l
+    margin-right: 0;
   }
 
   .mobile-menu {
@@ -383,7 +383,7 @@ h4 {
 
   .course {
     width: 100%;
-    background-color: rgba(234, 235, 236);
+    background-color: rgb(234, 235, 236);
     margin: 0 0 0.5rem 0;
   }
 
@@ -395,7 +395,6 @@ h4 {
     padding: 1rem 0 1.5rem 1rem;
     text-align: left;
     }
-  }
 
   .name p {
     display: none;
