@@ -373,9 +373,12 @@ h4 {
     padding: 2rem 1rem;
   }
 
+  .learning h2 {
+    padding-bottom: 1rem;
+  }
+
   .courses {
     display: block;
-
   }
 
   .course {
@@ -403,11 +406,11 @@ h4 {
 
 .thesis {
   background-color: white;
-  padding-top: 2rem;
 }
 
 .thesis h2 {
   text-align: center;
+  padding-top: 2rem;
 }
 
 .thesis .content {
@@ -469,4 +472,15 @@ footer p {
 
 footer li a {
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 560px) {
+  footer {
+    border-top: none;
+    height: auto;
+  }
+
+  footer li {
+    display: none;
+  }
 }
