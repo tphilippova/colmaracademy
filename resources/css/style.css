@@ -42,26 +42,26 @@ header .logo {
   color: rgb(74,74,74);
   align-items: center;
 }
-header .menu {
+nav {
   margin-right: 1.5rem;
 }
 
-li {
+nav li {
   display: inline;
   padding-left: 1rem;
 }
 
-li a {
+nav li a {
   font-size: 1.2rem;
   color: rgb(74, 74, 74);
   text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
   color: rgb(74, 144, 226);
 }
 
-li a:active {
+nav li a:active {
   font-weight: bold;
 }
 
@@ -72,7 +72,7 @@ li a:active {
 @media only screen and (max-width: 560px) {
   .logo img,
   .logo span,
-  .menu {
+  nav {
     display: none;
   }
 
@@ -80,7 +80,7 @@ li a:active {
     margin-left: 0;
   }
 
-  header .menu {
+  nav {
     margin-right: 0;
   }
 
